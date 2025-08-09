@@ -1,0 +1,28 @@
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/vetrimunusamy/AHA-PROJECT.git
+cd AHA-PROJECT
+
+# 2️⃣ Create and activate virtual environment
+python -m venv venv
+# On Windows
+venv\Scripts\activate
+# On Mac/Linux
+source venv/bin/activate
+
+# 3️⃣ Install dependencies
+pip install -r requirements.txt
+
+# 4️⃣ Run migrations
+python manage.py migrate
+
+# 5️⃣ Create superuser
+python manage.py createsuperuser
+
+# 6️⃣ Start development server
+python manage.py runserver
